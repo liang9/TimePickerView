@@ -1,0 +1,305 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="font_super_huge">48sp</dimen>
+    <dimen name="font_huge">40sp</dimen>
+    <dimen name="font_biggest">35sp</dimen>
+    <dimen name="font_big">32sp</dimen>
+    <dimen name="font_larger_p">30sp</dimen>
+    <dimen name="font_larger_m">28sp</dimen>
+    <dimen name="font_larger_l">26sp</dimen>
+    <dimen name="font_larger">24sp</dimen>
+    <dimen name="font_middle">22sp</dimen>
+    <dimen name="font_default">20sp</dimen>
+    <dimen name="font_min">18sp</dimen>
+    <dimen name="font_small">16sp</dimen>
+    <dimen name="font_smallest">14sp</dimen>
+    <dimen name="font_small_max">12sp</dimen>
+
+    <!--main activity-->
+    <dimen name="index_mode_list_height">85dp</dimen>
+    <dimen name="current_location_ic_size">40dp</dimen>
+
+    <!--left menu-->
+    <dimen name="menu_icon_size">32dp</dimen>
+    <dimen name="menu_icon_height_size">20dp</dimen>
+    <dimen name="menu_icon_layout_size">60dp</dimen>
+    <dimen name="left_menu_width">280dp</dimen>
+    <dimen name="user_info_margin_top">46dp</dimen>
+    <dimen name="user_info_margin_bottom">34dp</dimen>
+    <dimen name="user_icon_size">60dp</dimen>
+    <dimen name="user_info_margin_right">25dp</dimen>
+    <dimen name="user_info_margin_left">16dp</dimen>
+    <dimen name="user_info_char_dis">30dp</dimen>
+    <dimen name="menu_item_padding">16dp</dimen>
+    <dimen name="menu_item_height">50dp</dimen>
+    <dimen name="menu_item_set_contact_margin_top">10dp</dimen>
+    <dimen name="login_out_margin_top">20dp</dimen>
+    <dimen name="papa_tel_margin_top">5dp</dimen>
+    <!--页面修改之后，menu字体-->
+    <dimen name="menu_text_size">16sp</dimen>
+    <!--menu 中 安全密码 设置 字体大小-->
+    <dimen name="menu_safe_pwd_set_size">14sp</dimen>
+
+    <!--蓝牙模块相关字体大小-->
+    <!--未开启蓝牙字体大小-->
+    <dimen name="ble_close_size">26sp</dimen>
+    <!--马上开启蓝牙字体大小-->
+    <dimen name="ble_open_size">16sp</dimen>
+    <!--暂不绑定字体大小-->
+    <dimen name="ble_no_binding_size">12sp</dimen>
+    <dimen name="ble_no_bingding_failure_tip_size">14sp</dimen>
+    <dimen name="ble_failure">11sp</dimen>
+
+
+    <!--counterFragment-->
+    <dimen name="name_top">20dp</dimen>
+    <dimen name="start_protect_button_height">110dp</dimen>
+    <dimen name="set_time_text_size">90dp</dimen>
+    <dimen name="set_time_text_unit_size">18dp</dimen>
+    <dimen name="set_time_text_unit_margin_top">10dp</dimen>
+    <dimen name="counter_bottom_layout_height">70dp</dimen>
+    <dimen name="counter_bottom_button_height">45dp</dimen>
+    <dimen name="counter_share_trace_button_height">116dp</dimen>
+    <dimen name="counter_share_trace_button_weight">40dp</dimen>
+    <dimen name="circle_radius">260.0dip</dimen>
+    <dimen name="circle_width">5dp</dimen>
+
+    <dimen name="count_down_rl_title_height">100dp</dimen>
+    <dimen name="count_down_tip_margin_top">5dp</dimen>
+    <dimen name="count_down_tip_margin_bottom">0dp</dimen>
+
+    <!--alarmFragment-->
+    <dimen name="alarm_tip_margin_top">40dp</dimen>
+    <dimen name="alarm_tip_arrow_margin_top">20dp</dimen>
+    <dimen name="circle_radius_alarm">300.0dip</dimen>
+    <dimen name="circle_between_distance">20dp</dimen>
+    <dimen name="circle_wave_between_distance">18dp</dimen>
+
+    <!--5秒倒计时页面-->
+    <dimen name="dynamic_circle_size">160dp</dimen>
+    <dimen name="dynamic_circle_big_radius">80dp</dimen>
+    <dimen name="dynamic_circle_normal_radius">50dp</dimen>
+    <dimen name="wait_warning_tip_margin_top">50dp</dimen>
+
+    <!--圆环属性-->
+    <dimen name="circle_textSize">150sp</dimen>
+    <dimen name="circle_unitSize">25sp</dimen>
+    <dimen name="circle_counterTimeTextSize">70sp</dimen>
+    <dimen name="circle_minTextSize">25sp</dimen>
+    <dimen name="circle_counterUnitTextSize">25sp</dimen>
+
+    <!--预警页面-->
+    <dimen name="cancel_warning_button_height">70dp</dimen>
+    <dimen name="cancel_warning_tip_margin_top">20dp</dimen>
+    <dimen name="cancel_warning_waitingbar_layout_height">30dp</dimen>
+    <dimen name="cancel_warning_waitingbar_layout_margin_top">15dp</dimen>
+    <dimen name="cancel_warning_call_sms_layout_margin_bottom">20dp</dimen>
+    <dimen name="cancel_warning_alarm_desc_layout_margin_bottom">20dp</dimen>
+    <dimen name="cancel_warning_text_button_height">50dp</dimen>
+    <dimen name="cancel_warning_text_button_width">140dp</dimen>
+    <dimen name="warning_dynamic_service_height">200.0dip</dimen>
+
+    <dimen name="warning_record_line_margin_top">35dip</dimen>
+    <dimen name="warning_view_padding_layout_margin_top">10dip</dimen>
+    <dimen name="warning_count_down_time_margin_top">15dip</dimen>
+    <dimen name="warning_location_upload_des_margin_top">25dip</dimen>
+    <dimen name="warning_notify_contact_des_margin_top">20dip</dimen>
+    <dimen name="warning_notify_110_des_margin_top">20dip</dimen>
+
+    <!--录音View-->
+    <dimen name="audio_recorder_view_radius">100.0dip</dimen>
+    <dimen name="audio_recorder_view_textSize">16sp</dimen>
+    <dimen name="audio_recorder_view_counterTimeTextSize">60sp</dimen>
+    <dimen name="arv_circle_width">2dp</dimen>
+
+    <!--输入密码页面-->
+    <dimen name="input_number_rl_back_size">60dp</dimen>
+    <dimen name="input_number_height">90dp</dimen>
+    <dimen name="input_title_margin_top">30dp</dimen>
+    <dimen name="input_point_line_margin_top">20dp</dimen>
+    <dimen name="number_button_size">70dp</dimen>
+    <dimen name="number_button_abc_size">10sp</dimen>
+    <dimen name="number_button_marginleft">25dp</dimen>
+    <dimen name="alarm_button_size">50dp</dimen>
+    <dimen name="back_icon_marginleft">20dp</dimen>
+    <dimen name="points_layout_width">260dp</dimen>
+    <dimen name="input_point_size">20dp</dimen>
+    <dimen name="input_point_line_width">18dp</dimen>
+    <dimen name="input_point_line_height">2dp</dimen>
+
+    <!--完善信息-->
+    <dimen name="input_password_rela_size">60dp</dimen>
+    <dimen name="input_password_circle_dot_size">20dp</dimen>
+
+    <!--分享轨迹页面-->
+    <dimen name="share_trace_title_text_size">12sp</dimen>
+    <dimen name="share_trace_title_tip_height">60dp</dimen>
+    <dimen name="share_trace_map_size">300dp</dimen>
+    <dimen name="share_trace_take_a_word_margin_top">30dp</dimen>
+    <dimen name="share_trace_share_margin_top">30dp</dimen>
+
+    <!-- 信息完善界面 -->
+    <dimen name="info_layout_height">55dp</dimen>
+    <dimen name="info_layout_marginleft">40dp</dimen>
+    <dimen name="line_padding">20dp</dimen>
+    <dimen name="icon_size">22dp</dimen>
+    <dimen name="edittext_padding">10dp</dimen>
+    <dimen name="view_height">1dp</dimen>
+    <dimen name="btn_nextstep_height">50dp</dimen>
+    <dimen name="btn_nextstep_width">300dp</dimen>
+    <dimen name="btn_info_complete_size">60dp</dimen>
+    <dimen name="layout_button_width">150dp</dimen>
+    <dimen name="layout_button_height">60dp</dimen>
+    <dimen name="detail_arrow_marginright">35dp</dimen>
+    <dimen name="back_icon_size">25dp</dimen>
+    <dimen name="relation_check_icon">30dp</dimen>
+    <dimen name="relation_check_icon_marginleft">15dp</dimen>
+    <dimen name="divider_view_marginleft">20dp</dimen>
+    <dimen name="margin_btw_safe_dange">30dp</dimen>
+    <dimen name="userinfo_edittext_height">44dp</dimen>
+    <dimen name="button_margin_top">50dp</dimen>
+    <dimen name="address_button_width">180dp</dimen>
+    <dimen name="address_button_height">40dp</dimen>
+    <dimen name="add_another_icon_size">15dp</dimen>
+    <dimen name="relation_button_width">100dp</dimen>
+    <dimen name="contact_text_width">250dp</dimen>
+    <dimen name="complete_text_marginleft">15dp</dimen>
+    <dimen name="feedback_check_box_size">30dp</dimen>
+    <dimen name="complete_contact_fragment_check_box_size">30dp</dimen>
+
+    <!-- 修改联系人界面 -->
+    <dimen name="delete_holder_width">100dp</dimen>
+    <dimen name="add_new_contact_btn_width">300dp</dimen>
+    <dimen name="contact_text_marginleft">15dp</dimen>
+    <dimen name="add_contact_button_height">40dp</dimen>
+    <dimen name="add_contact_button_width">110dp</dimen>
+    <dimen name="contact_name_width">200dp</dimen>
+
+    <!-- 分享相关 -->
+    <dimen name="share_image_margin">7dp</dimen>
+    <dimen name="platform_text_size">12dp</dimen>
+    <dimen name="share_cancel_layout">52dp</dimen>
+    <dimen name="cancel_text_size">18dp</dimen>
+    <dimen name="share_text_size">15dp</dimen>
+    <dimen name="share_text_margintop">15dp</dimen>
+    <dimen name="share_text_marginleft">15dp</dimen>
+    <dimen name="share_text_marginbottom">27dp</dimen>
+    <dimen name="platform_layout_height">155dp</dimen>
+
+    <!-- 自定义旋转动画的进度对话框 -->
+    <dimen name="progress_dialog_MinHeight">48.0dip</dimen>
+    <dimen name="progress_dialog_MarginOrPadding">5.0dip</dimen>
+
+    <!-- 登录界面相关配置  -->
+    <dimen name="userlogin_inputphonenumber_edittext_width">200dp</dimen>
+    <dimen name="userlogin_input_edittext_margin_left">15dp</dimen>
+    <dimen name="userlogin_input_edittext_padding_top">2dp</dimen>
+    <dimen name="userlogin_forget_button_height">30dp</dimen>
+    <dimen name="login_title_height">150dp</dimen>
+    <dimen name="login_title_margintop">40dp</dimen>
+    <dimen name="pinyin_title_margintop">5dp</dimen>
+    <dimen name="login_edittext_height">55dp</dimen>
+    <dimen name="send_vcode_width">100dp</dimen>
+    <dimen name="five_merge">5dp</dimen>
+    <dimen name="view_margin_left">30dp</dimen>
+    <dimen name="login_button_height">45dp</dimen>
+    <dimen name="login_button_circle_flow_indicator_padding">20dp</dimen>
+    <!-- end -->
+
+    <!-- 意见反馈 -->
+    <dimen name="feedback_replay_iconsize">40dp</dimen>
+
+    <!--密码修改-->
+    <dimen name="pwd_edit_text_marginleft">15dp</dimen>
+
+    <!--用户指导-->
+    <dimen name="user_guide_padding">20dp</dimen>
+    <dimen name="user_guide_margin_top">20dp</dimen>
+    <dimen name="user_guide_margin_top_modify">-30dp</dimen>
+
+    <!--分享-->
+    <dimen name="share_icon_size">42dp</dimen>
+    <dimen name="share_icon_text_distance">7dp</dimen>
+    <dimen name="share_text_bottom_distance">14dp</dimen>
+    <dimen name="share_text_font_size">15sp</dimen>
+
+    <!-- 选择对话框 -->
+    <dimen name="defaultX2">24dp</dimen>
+    <dimen name="za_dialog_btn_margin">3dp</dimen>
+    <dimen name="padding_vertical_plus">15dp</dimen>
+    <dimen name="divider_padding">10dp</dimen>
+
+    <!--权限对话框-->
+    <dimen name="request_permission_margin_top">60dp</dimen>
+
+    <!--完善资料activity-->
+    <dimen name="step_height">30dp</dimen>
+    <dimen name="step_margin_top">70dp</dimen>
+    <dimen name="step14_line_width">70dp</dimen>
+    <dimen name="step_line_height">3dp</dimen>
+
+    <!--完善联系人fragment-->
+    <dimen name="fragment_complete_keyboard">60dp</dimen>
+    <!--完善密码-->
+    <dimen name="complete_contact_pwd_margin_top">50dp</dimen>
+    <dimen name="complete_contact_commit_button_margin_top">50dp</dimen>
+
+    <!--新手引导蒙灰-->
+    <dimen name="circle_guide_alarm">228dp</dimen>
+    <dimen name="main_friend_entry_cover_margin_top">-60dp</dimen>
+
+    <!--请求权限对话框-->
+    <dimen name="request_permission_close_icon_size">20dp</dimen>
+
+    <!--新手引导详情页-->
+    <dimen name="user_guide_details_bottom_button_height">70dp</dimen>
+
+    <!--好友页面-->
+    <dimen name="friend_page_card_height">160dp</dimen>
+    <dimen name="friend_page_card_margin_left_right">5dp</dimen>
+    <dimen name="friend_page_card_padding_left_right">10dp</dimen>
+    <dimen name="friend_page_card_margin_bottom">10dp</dimen>
+    <dimen name="friend_page_no_location_description_margin_left">60dp</dimen>
+    <dimen name="friend_page_no_location_description_margin_top">50dp</dimen>
+    <dimen name="friend_page_no_location_description_margin_bottom">80dp</dimen>
+
+    <dimen name="invisible_setting_hour_size">120dp</dimen>
+    <dimen name="invisible_setting_hour_margin_top">50dp</dimen>
+    <dimen name="invisible_setting_hour_margin_bottom">60dp</dimen>
+
+    <!--版本更新dialog -->
+    <dimen name="version_update_height">280dp</dimen>
+    <dimen name="version_update_tv_marginTop">20dp</dimen>
+    <dimen name="version_update_img_height">100dp</dimen>
+    <dimen name="version_update_confirm_width">250dp</dimen>
+    <dimen name="version_update_confirm_height">50dp</dimen>
+    <dimen name="version_update_cancel_marginTop">10dp</dimen>
+    <dimen name="version_update_cancel_marginRight">10dp</dimen>
+    <!--版本更新通知栏-->
+    <dimen name="version_update_notifycation_marginLeft">10dp</dimen>
+    <dimen name="version_update_notifycation_marginRight">10dp</dimen>
+
+
+    <!--离线地图下载-->
+    <dimen name="offline_group_size">18sp</dimen>
+    <dimen name="offline_child_size">15sp</dimen>
+
+    <!--新版主页配置-->
+    <dimen name="menu_icon_size_new">22dp</dimen>
+
+
+    <!-- 顶部按钮栏高度 -->
+    <dimen name="pickerview_topbar_height">44dp</dimen>
+
+    <!-- 顶部按钮padding -->
+    <dimen name="pickerview_topbar_padding">20dp</dimen>
+
+    <!-- 顶部按钮文字大小 -->
+    <dimen name="pickerview_topbar_btn_textsize">17sp</dimen>
+    <dimen name="pickerview_topbar_title_textsize">18sp</dimen>
+    <!-- 选项文字大小 -->
+    <dimen name="pickerview_textsize">20sp</dimen>
+
+</resources>
